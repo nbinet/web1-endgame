@@ -91,5 +91,26 @@ window.addEventListener('keydown', function(event) {
         font-family: "Athene" , arial;
         color:white;
     }
+ 
+.legend {
+  color: white;
+  font-size: 1.5em;
+}
 
+    .title {
+        color: white;
+        text-align: center;
+
+        h1 {
+            font-size: 8em;
+        }
+
+        h2 {
+            font-size: 4em;
+        }
+
+        h3 {
+            font-size: 2em;
+        }
+    }
 </style>

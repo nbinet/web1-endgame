@@ -9,6 +9,7 @@
     <div class="skate">
       <div class="skate__legend legend">Rock and Rap overtakes the skate universe</div>
       <img class="skate__arrow" src="../img/misc/arrow.png" />
+
       <img class="skate__img" src="../img/Late90s/skate.png" />
     </div>
   </div>
