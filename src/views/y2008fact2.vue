@@ -76,6 +76,7 @@ export default {
 
 .fact2_2008__text1 {
   position: absolute;
+  font-size: 32px;
   left: 25vw;
   top: 20vh;
   width: 35vw;

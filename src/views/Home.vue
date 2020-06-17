@@ -3,6 +3,7 @@
     <Template link='/80s' />
     <img id="traproll" src="../img/home/logo.png" />
     <img id="sub" src="../img/home/subtitle.png" />
+    <p class="disclaimer">Ce site a été réalisé à des fins pédagogiques dans le cadre du cursus Bachelor de l'école HETIC. Les contenus présentés n'ont pas fait l'objet d'une demande de droit d'utilisation. Ce site ne sera en aucun cas exploité à des fins commerciales et ne sera pas publié</p>
   </div>
 </template>
 
@@ -45,6 +46,16 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.disclaimer {
+  position: absolute;
+  font-size: 10px;
+  left:0;
+  bottom:0;
+  width: 30vw;
+  color: white;
+  opacity: 0.3;
 }
 
 </style>
