@@ -3,6 +3,7 @@
     <Template link='/80s' />
     <img id="traproll" src="../img/home/logo.png" />
     <img id="sub" src="../img/home/subtitle.png" />
+    <p class = "command title">press spacebar to navigate</p>
     <p class="disclaimer">Ce site a été réalisé à des fins pédagogiques dans le cadre du cursus Bachelor de l'école HETIC. Les contenus présentés n'ont pas fait l'objet d'une demande de droit d'utilisation. Ce site ne sera en aucun cas exploité à des fins commerciales et ne sera pas publié</p>
   </div>
 </template>
@@ -27,6 +28,13 @@ export default {
   width: 100%;
   height: 100%;
 }
+.command {
+  margin-top:30vh;
+  font-size:30px;
+  text-align:center;
+  color:white;
+
+}
 
 .background {
   background-image: url("../img/home/background.png");
@@ -44,6 +52,7 @@ export default {
 
 #sub {
   display: block;
+  margin-top:10%;
   margin-left: auto;
   margin-right: auto;
 }
